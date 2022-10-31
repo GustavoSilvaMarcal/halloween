@@ -40,7 +40,7 @@ a{
 .background{ 
 	width:100%;
 	height:100%;
-	position:background;
+	/*position:background;*/
 	left:-243px;
 	top:-162px;
 	background-image:url(images/background.png);
