@@ -1,4 +1,6 @@
 
+
+
 .button{ 
 	background-color:#c62c67;
 	color:rgb(255, 255, 255);
@@ -47,6 +49,13 @@ a{
 	background-position: center;
 	opacity: 0.6;
 }
+
+img {
+width:100%;
+}
+
+
+
 .h2{ 
 	color:rgb(241, 56, 118);
 	width:434px;
