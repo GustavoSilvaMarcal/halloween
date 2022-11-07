@@ -21,15 +21,26 @@ a{
 
 
 head {
-    display:flex;
+    display:block;
 }
 
-body {background:black}
+
+     
+body {
+	min-width: 100vw;
+	min-height: 100vw;
+	background:black;
+	display:block;
+	
+}
+
+
+
 *  {  
 	margin: 0;
 	  padding:  0;
 	 box-sizing: content-box;
-	 display: block;
+	 display:block;
 
 		   }
 
@@ -48,6 +59,7 @@ body {background:black}
 	opacity: 0.6;
 	margin:auto;
 	position: absolute;
+	display: flex;
 }
 
 
@@ -93,16 +105,14 @@ ul {
     color: #ffffff;
     box-sizing: border-box;
 	position:absolute;
-	top :780px;
+	top :810px;
 	left:auto;
 	object-position: left;
 	margin:auto;
 	
 	;
 }
-main {
-    width:auto;
-}
+
 
 section {
     width: auto;
@@ -120,6 +130,7 @@ section {
 	object-position: left;
     text-align: justify;
     position: relative;
+	
 }
 
 .button{ 
@@ -128,14 +139,66 @@ section {
 	font-family:Creepster;
 	width:100px;
 	height:33px;
-	left:55px;
+	left:190px;
 	object-position: left;
-     top:45px;
+     top: 125px;
 	margin: auto;
-	position:relative;
+	position:absolute;
 	border-top-left-radius:75px;
 	border-top-right-radius:75px;
 	border-bottom-left-radius:75px;
 	border-bottom-right-radius:75px;
 	appearance: auto;
 }
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 1200px) {
+
+	.button{ 
+		width: 100px;
+		height: 33px;
+		left: 196px;
+		 top:124px;
+		 color:white;
+	}
+
+	.background{ 
+		width:150%;
+		height:100%;
+    }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1200px) {
+
+	.button{ 
+		width: 70px;
+		height: 27px;
+		left: 184px;
+		 top:45px;
+		 color:white;
+	}
+
+	.background{ 
+		width:150%;
+		height:100%;
+    }
+	
+	.h2 {
+		color: rgb(241, 56, 118);
+		width: 350px;
+		left: 2px;
+		 top:100px;
+		font-family: Creepster;
+		font-size: 20px;
+		margin: auto;
+		object-position: left;
+		text-align: justify;
+		position: relative;
+		
+	}
+	
+
+}
+

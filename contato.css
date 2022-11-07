@@ -75,29 +75,20 @@ img {
 }        
 
 
+body{
+ background: black;
+ color:white;
+ font-weight: 500;
+ display: flex;
+ min-width: 100vh;
+ 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {background:black}
 *  {  
 	margin: 0;
-	  padding:  0;
-	 box-sizing: content-box;
-	 display: block;
-
+	padding:  0;
+	box-sizing:border-box;
 		   }
 
 
