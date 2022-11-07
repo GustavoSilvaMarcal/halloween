@@ -26,7 +26,7 @@ head {
 
 
      
-body {
+/*body {
 	min-width: 100vw;
 	min-height: 100vw;
 	background:black;
@@ -42,7 +42,7 @@ body {
 	 box-sizing: content-box;
 	 display:block;
 
-		   }
+		   }*/
 
 
 .background{ 
@@ -73,6 +73,10 @@ ul {
 	overflow: auto;
 	background-color:transparent;
 	font-family:Creepster;
+	margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
   }
   
   li {
@@ -203,4 +207,35 @@ section {
 	
 
 }
+@media only screen and (min-width: 280px) and (max-width: 653px) {
 
+	.button{ 
+		width: 70px;
+		height: 27px;
+		left: 184px;
+		 top:45px;
+		 color:white;
+	}
+
+	.background{ 
+		width:100%;
+		height:100%;
+		background-image:url(images/michael-myers-apresentacao.jpg);
+    }
+	
+	.h2 {
+		color: rgb(241, 56, 118);
+		width: 350px;
+		left: 2px;
+		 top:100px;
+		font-family: Creepster;
+		font-size: 20px;
+		margin: auto;
+		object-position: left;
+		text-align: justify;
+		position: relative;
+		
+	}
+	
+
+}
