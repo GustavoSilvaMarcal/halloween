@@ -1,12 +1,12 @@
 .button{ 
 	background-color:#f3a600;
 	color:rgb(255, 255, 255);
-	position: relative;
+	position: absolute;
 	font-family: creepster;	
-	width:100px;
-	height:33px;
-	left: 55px;
-	top:45px;
+	width:110px;
+	height:30px;
+	left: 829px;
+	top:511px;
 	object-position: left;
 	margin: auto;
 
@@ -18,40 +18,33 @@
 	
 } 
 
-.background{ 
-	width:100%;
-	height:100%;
-	left:auto;
-	top:auto;
-	margin:auto;
-	position: absolute;
-}
+
+
  
-   .rectangle {
-	width: 57rem;
-	height: 17rem;
-	background:grey;
+.rectangle {
+    width: 48rem;
+    height: 21rem;
+    background: grey;
     position: absolute;
-	border-radius: 35px;
-	left:196px;
-	top:326px;
-	border-width: medium;
-  border-style: solid;
-  border-color:black;
-   
-	object-position: left;
-	margin:auto;
-   }
+    border-radius: 35px;
+    left: 315px;
+    top: 274px;
 
-  
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    object-position: left;
+    margin: auto;
+}
 
+  @import url(images/linkedin.png);
 img {
     border-radius: 50%;
-    width:150px;
-	height:150px;
+    width:200px;
+	height:200px;
     position: absolute;
-    left:96px;
-	top:387px;
+    left:366px;
+	top:334px;
 	border-width: medium;
   border-style: solid;
   border-color:black;
@@ -60,14 +53,41 @@ img {
   display:flex;
 
   }
+  
+/*#img2 {
+    border-radius: 50%;
+    width:50px;
+	height:50px;
+    position: absolute;
+    left:95px;
+	top:700px;
+	border-width: medium;
+  border-style: solid;
+  border-color:black;
+
+ 
+
+  }*/
+  h1 { 
+	color:black;
+    width: 850px;
+    left:329px;
+     top:73px;
+    font-family:cursive;
+    font-size: 100px;
+    margin: auto;
+	object-position: left;
+    text-align: justify;
+    position:absolute;
+}  
 
   h2 { 
 	color:black;
     width: 434px;
-    left:-70;
-     top:30;
+    left:583px;
+     top:330px;
     font-family:inter;
-    font-size: 12px;
+    font-size: 18px;
     margin: auto;
 	object-position: left;
     text-align: justify;
@@ -79,13 +99,13 @@ body{
  background: black;
  color:white;
  font-weight: 500;
- display: flex;
- min-width: 100vh;
+ min-width: 140vh;
+
  
 
 }
 
-*  {  
+* {  
 	margin: 0;
 	padding:  0;
 	box-sizing:border-box;
@@ -115,18 +135,17 @@ a{
 
 
 .head {
-	display:FLEX;
+	display:block;
 }
-
 
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow:hidden;
+	overflow: auto;
 	background-color:black;
 	font-family:Creepster;
-
+	
 
   }
   
@@ -152,30 +171,85 @@ ul {
 
   header,footer {
     width: 100%;
-    padding:18px;
-    display:flex;
+    padding:20px;
     justify-content:center;
     align-items:center;
     background: #000000;
     color: #ffffff;
     box-sizing: border-box;
 	position:absolute;
-	top :780px;
-	left:10px;
+	top:708px;
+	left:0em;
 	object-position: left;
 	margin:auto;
+	display:flex;
 	
-	;
+	
 }
-main {
-    width:auto;
-}
+
 
 section {
     width: auto;
-    margin:0;
+    margin: 0;
 }
 
 
 
+@media only screen and (min-width: 375px) and (max-width: 1200px) {
+	ul {
+		width:100%;
+		position: absolute;
+	  }
 
+	  .rectangle {
+		width: 21rem;
+		height: 34rem;
+		left: 22px;
+		top: 73px;
+	
+	}
+
+	img {
+		border-radius: 50%;
+		width: 100px;
+		height: 100px;
+
+		left: 131px;
+		top: 91px;
+	}
+
+	h2 {
+		color: black;
+		width: 434px;
+		left: 44px;
+		/* top: 288px; */
+		top: 199px;
+		font-family: inter;
+		font-size: 18px;
+		margin: auto;
+		object-position: left;
+		text-align: justify;
+		position: absolute;
+		font-weight: bold;
+	}
+	 
+	.button {
+ 
+		width: 134px;
+		height: 79px;
+		left: 120px;
+		top: 478px;
+	 
+	  }
+
+
+	  .h1 { 
+		color:transparent;
+	} 
+	 
+	a {
+		font-family:inter;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}

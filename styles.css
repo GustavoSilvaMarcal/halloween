@@ -73,10 +73,7 @@ ul {
 	overflow: auto;
 	background-color:transparent;
 	font-family:Creepster;
-	margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+
   }
   
   li {
@@ -157,7 +154,7 @@ section {
 
 
 
-@media only screen and (min-width: 375px) and (max-width: 1200px) {
+@media only screen and (min-width: 375px) and (max-width: 720px) {
 
 	.button{ 
 		width: 100px;
