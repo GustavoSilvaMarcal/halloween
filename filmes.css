@@ -71,3 +71,19 @@ section {
     margin: 0 auto;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 1200px) {
+
+	.h2 {
+		color: rgb(241, 56, 118);
+		width: 434px;
+		height: 129px;
+		position: absolute;
+		left: 10px;
+		top: 115px;
+		font-family: Creepster;
+		text-align: center;
+		font-size: 100px;
+		letter-spacing: 100%;
+		/* display: flex; */
+	}
+}
