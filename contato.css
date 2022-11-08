@@ -68,18 +68,6 @@ img {
  
 
   }*/
-  /*h1 { 
-	color:black;
-    width: 850px;
-    left:329px;
-     top:73px;
-    font-family:cursive;
-    font-size: 100px;
-    margin: auto;
-	object-position: left;
-    text-align: justify;
-    position:absolute;
-} */
 
   h2 { 
 	color:black;
@@ -243,10 +231,7 @@ section {
 	  }
 
 
-	  .h1 { 
-		color:transparent;
-	} 
-	 
+
 	a {
 		font-family:inter;
 		font-size: 20px;
